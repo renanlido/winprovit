@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import { Conteiner, PostBody, PostHeader } from './style';
+import { Container, PostBody, PostHeader } from './style';
 
 type PostProps = {
   data: {
@@ -15,7 +15,7 @@ type PostProps = {
 
 const Post: React.FC<PostProps> = ({ data }) => {
   return (
-    <Conteiner>
+    <Container>
       <PostHeader>
         <Image
           src="https://avatars.dicebear.com/api/adventurer/your-custom-seed.svg"
@@ -35,7 +35,7 @@ const Post: React.FC<PostProps> = ({ data }) => {
         <h2>{data.title}</h2>
         <p>{data.body}</p>
       </PostBody>
-    </Conteiner>
+    </Container>
   );
 };
 
