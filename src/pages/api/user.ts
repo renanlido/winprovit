@@ -15,7 +15,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse<any>) => {
 
     res.status(200).json(output);
   } catch (error) {
-    res.status(400).json('User not found');
+    res.status(404).json('User not found');
   }
 };
 

@@ -16,7 +16,7 @@ const Home = ({ letters }: HomeProps) => {
         {letters.map(letter =>
           letter.posts.map(post => (
             <Post
-              key={letter.user.id}
+              key={post.id}
               data={{
                 body: post.body,
                 name: letter.user.name,
