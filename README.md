@@ -8,7 +8,7 @@ npm run dev
 yarn dev
 ```
 
-Abra Abra [http://localhost:3000](http://localhost:3000) no seu broweser para ver o resultado. no seu broweser para ver o resultado.
+Abra Abra [http://localhost:3000](http://localhost:3000) no seu broweser para ver o resultado.
 
 ## Projeto
 
